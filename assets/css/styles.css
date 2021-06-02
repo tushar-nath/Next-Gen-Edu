@@ -1,0 +1,17 @@
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.subjects{
+    background-color: #eee ;
+    padding-bottom: 60px;
+}
+.plan-cards{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 25%;
+    margin-left: 2%;
+    -webkit-box-shadow: 0 2px 2px rgba(150, 149, 149, 0.589);
+            box-shadow: 0 2px 2px rgba(150, 149, 149, 0.589);
+}

@@ -1,0 +1,62 @@
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row h1{
+    margin: 25px auto 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #fff;
+    text-decoration: underline;
+}
+.row h2{
+    margin: 0 auto;
+    padding-top: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.science,
+.commerce{
+    background-color: #eee;
+    padding-bottom: 60px;
+}
+.humanities{
+    background: linear-gradient( 
+135deg
+, rgba(0, 136, 232, 1) 0%, rgba(0, 182, 198, 1) 0%, rgba(0, 136, 232, 1) 100% );
+    padding-bottom: 60px;
+}
+.plan-cards{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 25%;
+    margin-left: 2%;
+    -webkit-box-shadow: 0 2px 2px rgba(150, 149, 149, 0.589);
+            box-shadow: 0 2px 2px rgba(150, 149, 149, 0.589);
+}
+hr{
+    width: 100%;
+    border-width: 5px;
+}
+.subject-name{
+    margin: 5px auto;
+}
+.chapters ol li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.subject-name {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.chapters ol{
+    margin: 10px 0;
+}
+
+footer{
+    background-color: #ddd;
+}

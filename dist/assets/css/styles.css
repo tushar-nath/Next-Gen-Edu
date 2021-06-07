@@ -1,4 +1,18 @@
 
+.brand img{
+    display: none;
+}
+
+.logo-black{
+    width: 60px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    display: none;
+
+}
+
+
 .row{
     max-width: 1140px;
     margin: 0 auto;

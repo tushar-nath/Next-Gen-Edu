@@ -23,6 +23,8 @@ Next-Gen-Ed
     <link rel="stylesheet" type="text/css" href="assets/css/Grid.css">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/queries.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
@@ -50,7 +52,8 @@ Next-Gen-Ed
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">Next-Gen Education</a>
+                        <img src="assets/images/logo_black.png" alt="" class="logo-black">
+                        <a href="index.html" class="logo name-logo">Next-Gen Education</a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
@@ -61,10 +64,10 @@ Next-Gen-Ed
                             <!-- <li class="submenu">
                                 <a href="javascript:;">More</a>
                                 <ul> -->
-                                    <!-- <li><a href="">About Us</a></li> -->
-                                    <!-- <li><a href=""></a></li> -->
-                                    <!-- <li><a href="">FAQ's</a></li> -->
-                                    <!-- <li><a href="">Contact Us</a></li>
+                            <!-- <li><a href="">About Us</a></li> -->
+                            <!-- <li><a href=""></a></li> -->
+                            <!-- <li><a href="">FAQ's</a></li> -->
+                            <!-- <li><a href="">Contact Us</a></li>
                                 </ul>
                             </li> -->
                             <!-- <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li> -->
@@ -140,6 +143,9 @@ Next-Gen-Ed
 
     <!-- ***** Features Small Start ***** -->
     <section class="section" id="services">
+        <div class="row brand">
+            <img src="assets/images/NxtGenEd_brand_name.png" alt="">
+        </div>
         <div class="row class-header">
             <h1>Programming</h1>
         </div>
@@ -190,9 +196,12 @@ Next-Gen-Ed
                 </div>
                 <div class="chapters">
                     <ol>
-                        <li><a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=3s" target="_blank">Crash Course</a></li>
-                        <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL" target="_blank">Detailed C++ Tutorials</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=Bndkkt-xqls" target="_blank">Mastering STL for Begineers</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=3s" target="_blank">Crash Course</a>
+                        </li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"
+                                target="_blank">Detailed C++ Tutorials</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=Bndkkt-xqls" target="_blank">Mastering STL for
+                                Begineers</a></li>
                     </ol>
                 </div>
             </div>
@@ -202,8 +211,10 @@ Next-Gen-Ed
                 </div>
                 <div class="chapters">
                     <ol>
-                        <li><a href="https://www.youtube.com/watch?v=B31LgI4Y4DQ" target="_blank">DSA Crash Course</a></li>
-                        <li><a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank">Extensive DSA in depth</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=B31LgI4Y4DQ" target="_blank">DSA Crash Course</a>
+                        </li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
+                                target="_blank">Extensive DSA in depth</a></li>
                     </ol>
                 </div>
             </div>
@@ -226,22 +237,36 @@ Next-Gen-Ed
                 <div class="chapters">
                     <ol>
                         <li>HTML</li>
-                        <li><a href="https://www.youtube.com/watch?v=pQN-pnXPaVg&feature=youtu.be" target="_blank">Crash Course HTML</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=mU6anWqZJcc" target="_blank">All topics covered HTML</a></li>
-                        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools Interactive Tutorial</a></li>
-                        <li><a href="https://www.upgrad.com/blog/html-project-ideas-topics-for-beginners/" target="_blank">Mini Project Ideas</a></li><br>
+                        <li><a href="https://www.youtube.com/watch?v=pQN-pnXPaVg&feature=youtu.be" target="_blank">Crash
+                                Course HTML</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=mU6anWqZJcc" target="_blank">All topics covered
+                                HTML</a></li>
+                        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools Interactive
+                                Tutorial</a></li>
+                        <li><a href="https://www.upgrad.com/blog/html-project-ideas-topics-for-beginners/"
+                                target="_blank">Mini Project Ideas</a></li><br>
                         <li>CSS</li>
-                        <li><a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank">CSS Crash Course</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=1Rs2ND1ryYc" target="_blank">CSS Detailed Course</a></li>
-                        <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">W3Schools Interactive Tutorial</a></li>
-                        <li><a href="https://whimsical.com/devsoc-basic-webdev-roadmap-BtCMjw3g17coXkTyJMQW3J" target="_blank">Mini Project Ideas</a></li><br>
+                        <li><a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank">CSS Crash Course</a>
+                        </li>
+                        <li><a href="https://www.youtube.com/watch?v=1Rs2ND1ryYc" target="_blank">CSS Detailed
+                                Course</a></li>
+                        <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">W3Schools Interactive
+                                Tutorial</a></li>
+                        <li><a href="https://whimsical.com/devsoc-basic-webdev-roadmap-BtCMjw3g17coXkTyJMQW3J"
+                                target="_blank">Mini Project Ideas</a></li><br>
                         <li>Javascript</li>
-                        <li><a href="https://www.youtube.com/watch?v=hdI2bqOjy3c" target="_blank">Javascript Crash Course</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank">Javascript Detailed Course</a></li>
-                        <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">W3Schools Interactive Tutorial</a></li>
-                        <li><a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank">Jonas Schmedtmann Udemy</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=_wvi4Srvggg&feature=youtu.be" target="_blank">DOM</a></li>
-                        <li><a href="https://www.upgrad.com/blog/javascript-project-ideas-beginners/" target="_blank">Mini Project Ideas</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=hdI2bqOjy3c" target="_blank">Javascript Crash
+                                Course</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank">Javascript Detailed
+                                Course</a></li>
+                        <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">W3Schools Interactive
+                                Tutorial</a></li>
+                        <li><a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank">Jonas
+                                Schmedtmann Udemy</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=_wvi4Srvggg&feature=youtu.be"
+                                target="_blank">DOM</a></li>
+                        <li><a href="https://www.upgrad.com/blog/javascript-project-ideas-beginners/"
+                                target="_blank">Mini Project Ideas</a></li>
 
                     </ol>
                 </div>
@@ -254,20 +279,28 @@ Next-Gen-Ed
                     <ol>
                         <li>APIs</li>
                         <li><a href="https://www.youtube.com/watch?v=iYM2zFP3Zn0" target="_blank">HTTP</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=Q-BpqyOT3a8" target="_blank">REST API Crash Course</a></li>
-                        <li><a href="https://www.youtube.com/playlist?list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C" target="_blank">Postman</a></li><br>
-                        <li><NodeJS</li>
-                        <li><a href="https://www.youtube.com/playlist?list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C" target="_blank">Node Crash Course</a></li>
-                        <li><a href="https://www.youtube.com/playlist?list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q" target="_blank">API Building with Node Playlist</a></li>
-                        <li><a href="https://www.udemy.com/course/nodejs-the-complete-guide/" target="_blank">Node Complete Guide</a></li><br>
+                        <li><a href="https://www.youtube.com/watch?v=Q-BpqyOT3a8" target="_blank">REST API Crash
+                                Course</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C"
+                                target="_blank">Postman</a></li><br>
+                        <li>
+                            <NodeJS< /li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C"
+                                target="_blank">Node Crash Course</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q"
+                                target="_blank">API Building with Node Playlist</a></li>
+                        <li><a href="https://www.udemy.com/course/nodejs-the-complete-guide/" target="_blank">Node
+                                Complete Guide</a></li><br>
                         <li>Frameworks</li>
-                        <li><a href="https://www.youtube.com/watch?v=L72fhGm1tfE&feature=youtu.be" target="_blank">Express Js</a></li><br>
+                        <li><a href="https://www.youtube.com/watch?v=L72fhGm1tfE&feature=youtu.be"
+                                target="_blank">Express Js</a></li><br>
                         <li>Database</li>
                         <li><a href="https://youtu.be/ZS_kXvOeQ5Y" target="_blank">SQL vs NoSQL Databases</a></li>
                         <li><a href="https://youtu.be/-56x56UppqQ" target="_blank">MongoDB</a></li>
                         <li><a href="https://youtu.be/qw--VYLpxG4" target="_blank">PostgreSQL</a></li>
-                        <li><a href="https://www.udemy.com/course/sql-and-postgresql/learn" target="_blank">Stephen Grider Udemy</a></li>
-                    </ol>   
+                        <li><a href="https://www.udemy.com/course/sql-and-postgresql/learn" target="_blank">Stephen
+                                Grider Udemy</a></li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -287,8 +320,10 @@ Next-Gen-Ed
                 </div>
                 <div class="chapters">
                     <ol>
-                        <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ" target="_blank">Flutter</a></li>
-                        <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ" target="_blank">React Native</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"
+                                target="_blank">Flutter</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ"
+                                target="_blank">React Native</a></li>
                     </ol>
                 </div>
             </div>
@@ -302,12 +337,16 @@ Next-Gen-Ed
                         <li><a href="https://www.youtube.com/watch?v=grEKMHGYyns" target="_blank">Java</a></li>
                         <li><a href="https://www.youtube.com/watch?v=F9UC9DY-vIU" target="_blank">Kotlin</a></li><br>
                         <li>Fundamentals</li>
-                        <li><a href="https://www.youtube.com/watch?v=5flXf8nuq60" target="_blank">Basics of Kotlin</a></li>
-                        <li><a href="https://www.youtube.com/playlist?list=PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR" target="_blank">Data Structures and Algorithms in Kotlin</a></li><br>
+                        <li><a href="https://www.youtube.com/watch?v=5flXf8nuq60" target="_blank">Basics of Kotlin</a>
+                        </li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR"
+                                target="_blank">Data Structures and Algorithms in Kotlin</a></li><br>
                         <li>Version Control System</li>
-                        <li><a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank">Git and Github</a></li><br>
+                        <li><a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank">Git and Github</a>
+                        </li><br>
                         <li>Building an Application</li>
-                        <li><a href="https://www.youtube.com/watch?v=fis26HvvDII" target="_blank">Android Studio</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=fis26HvvDII" target="_blank">Android Studio</a>
+                        </li>
                     </ol>
                 </div>
             </div>
@@ -336,6 +375,7 @@ Next-Gen-Ed
     <!-- ***** Footer End ***** -->
 
     <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
     <!-- Bootstrap -->

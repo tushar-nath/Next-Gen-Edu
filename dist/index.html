@@ -8,6 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="Template Mo">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
 
     <title>Next-Gen Edu</title>
     <!--
@@ -16,14 +20,15 @@ Next-Gen-Ed
 
 -->
     <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/Grid.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="assets/css/templatemo-art-factory.css">
     <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
     <link rel="icon" href="assets/images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="assets/css/Grid.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/indexstyles.css">
     <link rel="stylesheet" type="text/css" href="assets/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
 
 
@@ -61,7 +66,7 @@ Next-Gen-Ed
                             <li class="submenu">
                                 <a href="javascript:;">More</a>
                                 <ul>
-                                    <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                                    <li class="scroll-to-section"><a href="#id-contact">Contact Us</a></li>
                                 </ul>
                             </li>
                             <!-- <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li> -->
@@ -95,7 +100,7 @@ Next-Gen-Ed
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
                         data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                        <img src="assets/images/school.jpg" class="rounded img-fluid d-block mx-auto"
+                        <img src="assets/images/school.jpg" class="rounded img-fluid d-block mx-auto school-image"
                             alt="First Vector Graphic">
                     </div>
                 </div>
@@ -202,57 +207,52 @@ Next-Gen-Ed
         </div>
     </section>
 
-    <!-- ***** Contact Us Start ***** -->
-    <section class="section" id="contact-us">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- ***** Contact Map Start ***** -->
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div id="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.6571970301025!2d91.65751361502876!3d26.14271798346529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a44bc38051d29%3A0x2b37c226f819eccc!2sAssam%20Engineering%20College!5e0!3m2!1sen!2sin!4v1622659537023!5m2!1sen!2sin"
-                            width="570" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-                <!-- ***** Contact Map End ***** -->
+    <!-- ***** map&contact  start***** -->
 
-                <!-- ***** Contact Form Start ***** -->
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="contact-form">
-                        <form id="contact" action="" method="post">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <fieldset>
-                                        <input name="name" type="text" id="name" placeholder="Full Name" required=""
-                                            class="contact-field">
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <fieldset>
-                                        <input name="email" type="text" id="email" placeholder="E-mail" required=""
-                                            class="contact-field">
-                                    </fieldset>
-                                </div>
-                                <div class="col-lg-12">
-                                    <fieldset>
-                                        <textarea name="message" rows="6" id="message" placeholder="Your Message"
-                                            required="" class="contact-field"></textarea>
-                                    </fieldset>
-                                </div>
-                                <div class="col-lg-12">
-                                    <fieldset>
-                                        <button type="submit" id="form-submit" class="main-button">Send It</button>
-                                    </fieldset>
-                                </div>
-                            </div>
-                        </form>
+    <section class="connect" id="id-contact">
+        <div class="row">
+            <div class="col-md-8 founders">
+                <div class="row fd-row-1">
+                    <div class="col-sm-6 founder-details fd-1">
+                        <img src="assets/images/tushar.png" alt="Tushar's profile picture">
+                        <h3>Tushar Nath</h3>
+                        <p>founder</p>
+                    </div>
+                    <div class="col-sm-6 founder-details fd-2">
+                        <img src="assets/images/hrishikesh.png" alt="Hrishikesh's profile picture">
+                        <h3>Hrishikesh Deuri</h3>
+                        <p>founder</p>
                     </div>
                 </div>
-                <!-- ***** Contact Form End ***** -->
+                <div class="row fd-row-2">
+                    <div class="col-md-12 founder-details fd-3">
+                        <img src="assets/images/priyanuj.png" alt="Priyanuj's profile picture">
+                        <h3>Priyanuj Handique</h3>
+                        <p>founder</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="https://us1.list-manage.com/contact-form?u=f2607fc526a908a5594423c82&form_id=195ba9183a78abe10ee25cb938b2bbc7"
+                            class="BUTTON_KXM" target="_blank">Write to Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-md-4 map">
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.6571970301025!2d91.65751361502876!3d26.14271798346529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a44bc38051d29%3A0x2b37c226f819eccc!2sAssam%20Engineering%20College!5e0!3m2!1sen!2sin!4v1622659537023!5m2!1sen!2sin"
+                        width="90%" height="490" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
     </section>
-    <!-- ***** Contact Us End ***** -->
+
+
+
+
+
+    <!-- ***** map&contact  end ***** -->
 
 
     <!-- ***** Footer Start ***** -->

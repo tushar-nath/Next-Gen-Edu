@@ -1,0 +1,97 @@
+
+
+
+ .clearfix {zoom: 1;}
+ .clearfix:after {
+     content: '.';
+     clear: both;
+     display: block;
+     height: 0;
+     visibility: hidden;
+ }
+ html,
+ body {
+     overflow-x: hidden;
+ }
+
+ 
+.school-image{
+    position: relative;
+    top: 50px;
+}
+
+.connect{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #eee;
+}
+.founders,
+.map{
+    margin: 0;
+    padding: 0;
+}
+
+.founders .row div{
+    padding: 0;
+    text-align: center;
+}
+.footer{
+    background-color: #fff;
+}
+
+
+.founder-details h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 130%;
+}
+.founder-details p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 90%;
+}
+.founder-details img{
+    width: 150px;
+    margin-bottom: 5px;
+}
+.fd-row-1{
+    margin-top: 50px;
+}
+.fd-row-2{
+    margin-bottom: 30px;
+}
+#map{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.BUTTON_KXM {
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    border-radius: 26px;
+    height: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-family: Tahoma;
+    width: 108px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0;
+    background-color: #00B4C6;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+ 
+ .BUTTON_KXM:hover {
+    background: #007BFF;
+    border: solid #337FED 0;
+    color: #FFFFFF;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    border-radius: 26px;
+    text-decoration: none;
+ }
